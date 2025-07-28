@@ -1,0 +1,44 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background: linear-gradient(to right, rgb(206, 157, 164), rgb(199, 129, 139));
+}
+
+.theme{
+  font-size: 50px;
+  text-align: center;
+  color: rgb(37, 0, 9);
+}
+
+.button1 {
+  background-color: rgb(102, 0, 34);
+  padding: 30px 70px;
+  border-width: 7px;
+  border-color: rgb(31, 0, 0);
+  color: rgb(255, 229, 229);
+  font-size: 45px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  display: block;
+  margin: 40px auto;
+}
+
+.button1:hover {
+  background-color: rgb(121, 10, 47); 
+}
+
+.button1:active {
+  background-color: rgb(143, 39, 67); 
+}
+
+#text {
+  display: none;
+  margin: 40px auto;
+}
+
+.main {
+  width: 700px;
+  font-size: 23px;
+  background-color: rgb(183, 122, 131);
+  padding: 20px 20px;
+  border-radius: 3px;
+}
